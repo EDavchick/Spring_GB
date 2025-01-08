@@ -1,0 +1,87 @@
+Maven сборка
+
+mvn archetype:generate -DgroupId=com.gb -DartifactId="myMavenApp" -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+[INFO] Scanning for projects...
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-metadata.xml (14 kB at 17 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/mojo/maven-metadata.xml (21 kB at 24 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/maven-metadata.xml
+Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/plugins/maven-archetype-plugin/maven-metadata.xml (1.0 kB at 13 kB/s)
+[INFO]
+[INFO] ------------------< org.apache.maven:standalone-pom >-------------------
+[INFO] Building Maven Stub Project (No POM) 1
+[INFO] --------------------------------[ pom ]---------------------------------
+[INFO]
+[INFO] >>> archetype:3.3.1:generate (default-cli) > generate-sources @ standalone-pom >>>
+[INFO]
+[INFO] <<< archetype:3.3.1:generate (default-cli) < generate-sources @ standalone-pom <<<
+[INFO]
+[INFO]
+[INFO] --- archetype:3.3.1:generate (default-cli) @ standalone-pom ---
+[INFO] Generating project in Batch mode
+Downloading from central: https://repo.maven.apache.org/maven2/archetype-catalog.xml
+Downloaded from central: https://repo.maven.apache.org/maven2/archetype-catalog.xml (16 MB at 3.3 MB/s)
+[INFO] ----------------------------------------------------------------------------
+[INFO] Using following parameters for creating project from Old (1.x) Archetype: maven-archetype-quickstart:1.0
+[INFO] ----------------------------------------------------------------------------
+[INFO] Parameter: basedir, Value: C:\Users\Елена\Documents\001_GB_Dev\03_Разработчик. Веб-разработка на Java. Технологическая специализация\04_Spring\sem01\mavenProject
+[INFO] Parameter: package, Value: com.gb
+[INFO] Parameter: groupId, Value: com.gb
+[INFO] Parameter: artifactId, Value: myMavenApp
+[INFO] Parameter: packageName, Value: com.gb
+[INFO] Parameter: version, Value: 1.0-SNAPSHOT
+[INFO] project created from Old (1.x) Archetype in dir: C:\Users\Елена\Documents\001_GB_Dev\03_Разработчик. Веб-разработка на Java. Технологическая специализация\04_Spring\sem01\mavenProject\myMavenApp
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  14.531 s
+[INFO] Finished at: 2025-01-08T15:22:45+04:00
+[INFO] ------------------------------------------------------------------------
+
+mvn package
+
+java -cp target/myMavenApp-1.0-SNAPSHOT.jar com.gb.App
+
+вывод: Hello World!
+
+
+=================================================================================
+=================================================================================
+
+Gradle сборка
+
+
+sem01\mavenProject\myGradleApp>gradle init --type java-application
+Starting a Gradle Daemon (subsequent builds will be faster)
+
+Enter target Java version (min: 7, default: 21): 22
+
+Project name (default: myGradleApp):
+
+Select application structure:
+  1: Single application project
+  2: Application and library project
+Enter selection (default: Single application project) [1..2]
+
+Select build script DSL:
+  1: Kotlin
+  2: Groovy
+Enter selection (default: Kotlin) [1..2] 2
+
+Select test framework:
+  1: JUnit 4
+  2: TestNG
+  3: Spock
+  4: JUnit Jupiter
+Enter selection (default: JUnit Jupiter) [1..4] 1
+
+Generate build using new APIs and behavior (some features may change in the next minor release)? (default: no) [yes, no] yes
+
+
+> Task :init
+Learn more about Gradle by exploring our Samples at https://docs.gradle.org/8.12/samples/sample_building_java_applications.html
+
+BUILD SUCCESSFUL in 2m 47s
+1 actionable task: 1 executed
