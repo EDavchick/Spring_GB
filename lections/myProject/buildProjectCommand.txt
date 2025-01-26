@@ -1,0 +1,5 @@
+mvn archetype:generate -DgroupId=ru.geekbrains -DartifactId="myProject" -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+
+mvn package
+
+java -cp target/myProject-1.0-SNAPSHOT.jar ru.geekbrains.App
