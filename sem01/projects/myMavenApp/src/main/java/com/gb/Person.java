@@ -4,7 +4,8 @@ import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;
 import org.apache.commons.lang3.builder.ToStringBuilder;
 
-import java.util.Objects;
+// Используйте библиотеку gson для сериализации и
+// десериализации объектов класса Person в формат JSON.
 
 public class Person {
     private String firstName,lastName;

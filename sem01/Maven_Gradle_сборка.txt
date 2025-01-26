@@ -53,7 +53,7 @@ java -cp target/myMavenApp-1.0-SNAPSHOT.jar com.gb.App
 Gradle сборка
 
 
-sem01\mavenProject\myGradleApp>gradle init --type java-application
+sem01\projects\myGradleApp>gradle init --type java-application
 Starting a Gradle Daemon (subsequent builds will be faster)
 
 Enter target Java version (min: 7, default: 21): 22
