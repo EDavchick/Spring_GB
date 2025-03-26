@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6c0118a1-ef4e-49a0-99e4-d03375604147" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../sem01/projects/myMavenApp/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../sem01/projects/myMavenApp/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sem02/example1/src/main/java/ru/dav/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sem02/example1/src/main/java/ru/dav/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sem02/example1/src/main/java/ru/dav/config/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sem02/example1/src/main/java/ru/dav/config/ProjectConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sem02/example2/src/main/java/ru/dav/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sem02/example2/src/main/java/ru/dav/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sem02/example2/src/main/java/ru/dav/config/ProjectConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sem02/example2/src/main/java/ru/dav/config/ProjectConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sem02/example2/src/main/java/ru/dav/domain/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sem02/example2/src/main/java/ru/dav/domain/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sem02/example3/src/main/java/ru/dav/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sem02/example3/src/main/java/ru/dav/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sem02/example3/src/main/java/ru/dav/domain/DiselEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sem02/example3/src/main/java/ru/dav/domain/DiselEngine.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sem02/example3/src/main/java/ru/dav/domain/IEngine.java" beforeDir="false" afterPath="$PROJECT_DIR$/../sem02/example3/src/main/java/ru/dav/domain/IEngine.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;EDavchick&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;git@github.com:EDavchick/Spring_GB.git&quot;,
+    &quot;accountId&quot;: &quot;aed80c79-654f-4785-a92b-86959a84dc8a&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="2uo8jYjQAQVrv5Z6utSaWkDL76w" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "sem02",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/ElenaD/Documents/001_GB_Dev/03_Разработчик. Веб-разработка на Java. Технологическая специализация/04_Spring/lections/lec03_ex01"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ElenaD\Documents\001_GB_Dev\03_Разработчик. Веб-разработка на Java. Технологическая специализация\04_Spring\lections" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6c0118a1-ef4e-49a0-99e4-d03375604147" name="Changes" comment="" />
+      <created>1742903702531</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1742903702531</updated>
+    </task>
+    <servers />
+  </component>
+</project>
