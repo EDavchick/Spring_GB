@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="demo-spring-boot" target="21" />
+      <module name="example1" target="23" />
+      <module name="example2" target="23" />
+      <module name="example3" target="23" />
+      <module name="hw02" target="23" />
+      <module name="myMavenApp" target="1.8" />
+      <module name="spring-demo" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
