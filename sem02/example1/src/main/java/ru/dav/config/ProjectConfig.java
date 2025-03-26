@@ -8,21 +8,19 @@ import ru.dav.domain.Car;
 @Configuration
 public class ProjectConfig {
 
-    @Bean
+    @Bean("BMW")
     Car car1(){
         Car obCar = new Car();
         obCar.setModel("X1");
         obCar.setMade("BMW");
-
         return obCar;
     }
 
-    @Bean
+    @Bean(name = "Audi")
     Car car2(){
         Car obCar = new Car();
         obCar.setModel("S8");
         obCar.setMade("Audi");
-
         return obCar;
     }
 
@@ -32,11 +30,8 @@ public class ProjectConfig {
         Car obCar = new Car();
         obCar.setModel("H7");
         obCar.setMade("HAVAL");
-
         return obCar;
     }
-
-
 
     @Bean
     String hello(){

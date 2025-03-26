@@ -8,8 +8,10 @@ import ru.dav.domain.Engine;
 
 @Configuration
 @ComponentScan(basePackages = "ru.dav.domain")
+// аннотация @ComponentScan указывает, где искать данные для создания объекта
 public class ProjectConfig {
 
+    // этот код спринг будет игнорировать, т.к. basePackages = "ru.dav.domain"
 //    @Bean
 //    Engine engine(){
 //        Engine eng = new Engine();

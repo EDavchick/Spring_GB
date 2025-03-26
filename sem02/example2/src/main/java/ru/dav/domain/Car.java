@@ -8,6 +8,7 @@ public class Car {
     private String model = "X1";
     private String made = "BMW";
     @Autowired
+    // @Autowired аннотация автозаполнения
     private Engine carEngine;
 
     public Car() {
