@@ -8,6 +8,12 @@
     <title>Random Number</title>
 </head>
 <body>
-<h1>Случайное число: <span th:text="${number}"></span></h1>
+<h1>Минимальное число: <span th:text="${min}"> MIN </span></h1>
+<h1>Максимальное число: <span th:text="${max}"> MAX </span></h1>
+<h1 style="color: blue">Случайное число: <span th:text="${number}"> NUMBER </span></h1>
+<br>
+<h1>Минимальное дефолтное число: <span th:text="${min_default}"> MIN DEFAULT </span></h1>
+<h1>Максимальное число: <span th:text="${max_default}"> MAX DEFAULT </span></h1>
+<h1 style="color: blue">Случайное дефолтное число: <span th:text="${number_default}"> NUMBER </span></h1>
 </body>
 </html>
