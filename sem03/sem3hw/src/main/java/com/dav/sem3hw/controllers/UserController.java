@@ -15,11 +15,20 @@ public class UserController {
     @Autowired
     private RegistrationService service;
 
+    /**
+     * Getting list users
+     * @return JSON response with list of users
+     */
     @GetMapping
     public List<User> userList() {
         return service.getDataProcessingService().getRepository().getUsers();
     }
 
+    /**
+     * Add new user
+     * @param requestBody body request
+     * @return notification added user
+     */
     @PostMapping("/body")
     public String userAddFromBody(@RequestBody Map<String, Object> requestBody) {
         String name = (String) requestBody.get("name");

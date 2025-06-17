@@ -5,8 +5,10 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class NotificationService {
-
-    // печатает сообщение о том, что пользователь был создан
+    /**
+     * Печатает сообщение о том, что пользователь был создан
+     * @param user
+     */
     public void notifyUser(User user) {
         System.out.println("A new user has been created in DB: " + user.getName());
     }

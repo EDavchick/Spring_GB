@@ -6,8 +6,17 @@ import org.springframework.stereotype.Service;
 @Service
 public class RegistrationService {
 
+    /**
+     * Service filed works with storage of users
+     */
     private final UserService userService;
+    /**
+     * Service filed creates users
+     */
     private final DataProcessingService dataProcessingService;
+    /**
+     * Service filed for console notifications
+     */
     private final NotificationService notificationService;
 
 

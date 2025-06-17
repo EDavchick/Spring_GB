@@ -21,6 +21,10 @@ public class TaskController {
     @Autowired
     private DataProcessingService service;
 
+    /**
+     * Getting list of tasks
+     * @return list of tasks
+     */
     @GetMapping
     public List<String> getAllTasks(){
         List<String> tasks = new ArrayList<>();
@@ -55,7 +59,8 @@ public class TaskController {
      */
     @GetMapping("/calc") // localhost:8080/tasks/calc
     public double calculateAverageAge() {
-        return service.calculateAverageAge(service.getRepository().getUsers());
+        List<User> users = service.getRepository().getUsers();
+        return service.calculateAverageAge(users);
     }
 
 }
