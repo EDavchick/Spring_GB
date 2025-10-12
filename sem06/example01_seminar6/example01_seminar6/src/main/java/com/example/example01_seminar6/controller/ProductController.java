@@ -7,7 +7,9 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 @RestController
 @RequestMapping("/products")
@@ -26,12 +28,15 @@ public class ProductController {
     }
 
     @GetMapping("{id}")
-    public ResponseEntity<Product> getProduct(@PathVariable("id")Long id) {
+    public ResponseEntity<?> getProduct(@PathVariable("id")Long id) {
         Product productById;
         try {
             productById = productService.getProductById(id);
         } catch (RuntimeException e) {
-            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(new Product());
+            Map<String, String> error = new HashMap<>();
+            error.put("error", "Product not found with id " + id);
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).body(error);
+//            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(new Product());
         }
         return new ResponseEntity<>(productById, HttpStatus.OK);
     }
